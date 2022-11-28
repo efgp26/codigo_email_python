@@ -9,8 +9,6 @@ app= Flask(__name__)
 
 load_dotenv()
 
-app.run(debug=True)
-
 @app.route('/e-mail')
 def mail():
 
